@@ -137,6 +137,28 @@ nav{
     padding-top: 5%;
     margin-bottom: -1.5%;
 }
+.main .third{
+    display: grid;
+    grid-template-columns: 0.25fr 1.5fr 1fr 0.5fr;
+    margin-top: 3%;
+}
+.main .third img{
+    width:70%;
+}
+.main .third input{ 
+    padding: 5%;
+}
+.main .third button{
+    margin-top: 6%;
+    padding: 5%;
+
+
+
+
+
+
+
+
 /* aside .container img{
     width: 20%;
     
