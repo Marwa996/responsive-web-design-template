@@ -1,0 +1,3 @@
+:root{
+    --items-color: rgb(86, 244, 202);
+}
