@@ -1,0 +1,28 @@
+$primary-color:white;
+$navbar-color:rgb(53, 52, 52);
+$button-color:rgb(224, 73, 73);
+$overlay:rgba(0, 0, 0, 0.686);
+$main-color: black;
+
+$font-size:(
+    "sm":16px,
+    "md":20px,
+    "lg":40px,
+    "xl":50px,
+    "xxl":60px,
+);
+
+@mixin my-flex($dir, $wrap, $js){
+    display:flex;
+    flex-direction: $dir;
+    flex-wrap: $w;
+    justify-content: $js;
+}
+
+@mixin color($col){
+    @if($col == "red"){
+        background-color: $button-color;
+    }@if($col == "grey"){
+        background-color: $navbar-color;
+    }
+}

@@ -1,0 +1,256 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width: 1200px) {
+  h2, li {
+    font-size: 0.75rem;
+  }
+}
+.container, .eightth .eightth-container, .seventh .seventh-container, .sixth .sixth-container, .fifth .fifth-container, .forth .forth-container, .third .overlay .third-container, .second .second-container, .first .first-container, nav .nav-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  color: white;
+  background-color: rgb(53, 52, 52);
+  width: 100%;
+  height: 20%;
+  padding: 1% 0;
+}
+nav .nav-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1rem;
+}
+nav .nav-container h2 {
+  width: 20%;
+  text-align: center;
+}
+nav .nav-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+  width: 50%;
+}
+nav .nav-container ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.first {
+  background-image: url("../source/img/image1.jpg");
+  width: 100%;
+  background-size: 100% 100%;
+}
+.first .first-container {
+  color: white;
+  padding: 10% 0;
+  text-align: center;
+}
+.first .first-container h6 {
+  font-size: 50px;
+  font-weight: normal;
+}
+.first .first-container p {
+  padding: 5% 0;
+}
+.first .first-container button {
+  padding: 1.5% 3%;
+  background-color: rgb(224, 73, 73);
+  border: none;
+  border-radius: 5%;
+  color: white;
+}
+
+.second {
+  padding: 5% 0;
+}
+.second .second-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.second .second-container div {
+  width: 30%;
+  text-align: center;
+}
+.second .second-container div .fa-solid {
+  font-size: 60px;
+  padding-bottom: 10%;
+}
+.second .second-container div p {
+  padding-top: 5%;
+}
+
+.third {
+  background-image: url("../source/img/lights2.jpg");
+}
+.third .overlay {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.686);
+}
+.third .overlay .third-container {
+  color: white;
+  padding: 5% 0;
+  text-align: center;
+}
+.third .overlay .third-container p {
+  padding-top: 4%;
+}
+
+.forth .forth-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.forth .forth-container .text {
+  width: 30%;
+}
+.forth .forth-container .text h1 {
+  padding: 10% 0 5% 0;
+}
+.forth .forth-container .text button {
+  margin-top: 5%;
+  background-color: white;
+  border-color: rgb(224, 73, 73);
+  border-radius: 10%;
+  padding: 4%;
+  color: rgb(224, 73, 73);
+}
+.forth .forth-container .image {
+  width: 50%;
+}
+.forth .forth-container .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.fifth {
+  margin-top: 3%;
+}
+.fifth .fifth-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.fifth .fifth-container div {
+  width: 30%;
+  margin-top: 5%;
+  border-radius: 5%;
+  padding: 3%;
+  color: white;
+}
+.fifth .fifth-container div .fa-solid {
+  font-size: 60px;
+  padding-bottom: 10%;
+}
+.fifth .fifth-container div h2 {
+  padding-bottom: 2%;
+}
+.fifth .fifth-container div:nth-child(odd) {
+  background-color: rgb(224, 73, 73);
+}
+.fifth .fifth-container div:nth-child(even) {
+  background-color: rgb(53, 52, 52);
+}
+
+.sixth {
+  background-image: url("../source/img/media.jpg");
+  margin-top: 4%;
+}
+.sixth .overlay {
+  background-color: rgba(0, 0, 0, 0.686);
+}
+.sixth .sixth-container {
+  text-align: center;
+  color: white;
+  padding: 2% 0;
+  font-size: 40px;
+}
+.sixth .sixth-container h1 {
+  font-weight: normal;
+}
+.sixth .sixth-container .fa-solid {
+  font-size: 60px;
+}
+
+.seventh {
+  padding: 3% 0;
+}
+.seventh .seventh-container {
+  text-align: center;
+}
+.seventh .seventh-container h1 {
+  font-weight: normal;
+  font-size: 50px;
+}
+.seventh .seventh-container p {
+  padding-top: 1%;
+}
+.seventh .seventh-container .images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 3%;
+}
+.seventh .seventh-container .images img {
+  width: 30%;
+  margin-top: 2%;
+}
+
+.eightth {
+  background-color: rgb(53, 52, 52);
+  color: white;
+  padding: 3% 0;
+}
+.eightth .eightth-container {
+  text-align: center;
+}
+.eightth .eightth-container h1 {
+  font-weight: normal;
+}
+.eightth .eightth-container .staff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 6%;
+}
+.eightth .eightth-container .staff div {
+  width: 20%;
+}
+.eightth .eightth-container .staff div img {
+  border-radius: 50%;
+  width: 100%;
+}
+.eightth .eightth-container .staff div h4 {
+  padding: 5% 0;
+}
+.eightth .eightth-container .staff div p {
+  font-size: 16px;
+}
+
+footer {
+  background-color: black;
+  padding: 2% 0;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
